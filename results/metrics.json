@@ -1,0 +1,74 @@
+{
+  "config": {
+    "viquad_dev": "/kaggle/input/uit-viquad-2-0/dev.json",
+    "n_questions": 50,
+    "seed": 42,
+    "chunk_size": 500,
+    "chunk_overlap": 100,
+    "add_title": true,
+    "embed_model": "BAAI/bge-m3",
+    "top_k": 4,
+    "max_k_curve": 10,
+    "llm_model": "qwen2.5:7b",
+    "ollama_url": "http://localhost:11434",
+    "temperature": 0.0,
+    "num_ctx": 4096,
+    "num_predict": 128,
+    "judge_model": "qwen2.5:7b",
+    "out_dir": "results"
+  },
+  "data": {
+    "paragraphs": 3171,
+    "chunks": 7802,
+    "answerable_questions": 3852,
+    "test_questions": 50,
+    "index_sec": 251.5
+  },
+  "retrieval_all_dev": {
+    "Hit@1": 0.7590861889927311,
+    "Hit@2": 0.8455347871235722,
+    "Hit@3": 0.8849948078920041,
+    "Hit@4": 0.9044652128764278,
+    "Hit@5": 0.9205607476635514,
+    "Hit@6": 0.9314641744548287,
+    "Hit@7": 0.9387331256490135,
+    "Hit@8": 0.9439252336448598,
+    "Hit@9": 0.9485981308411215,
+    "Hit@10": 0.9530114226375909,
+    "MRR@4": 0.8203314295604015,
+    "MRR@10": 0.8280157493942542,
+    "n": 3852,
+    "sec": 20.6
+  },
+  "test50": {
+    "hit@4": 0.92,
+    "MRR@4": 0.8833333333333333,
+    "rag": {
+      "EM": 0.48,
+      "F1": 0.692796885208361,
+      "Contains": 0.5,
+      "Judge(1-5)": 3.9,
+      "Judge>=4": 0.74,
+      "sec/answer": 0.7837999999999999,
+      "Faithfulness(1-5)": 4.64
+    },
+    "norag": {
+      "EM": 0.04,
+      "F1": 0.1491602837039796,
+      "Contains": 0.06,
+      "Judge(1-5)": 2.0,
+      "Judge>=4": 0.18,
+      "sec/answer": 0.2512
+    },
+    "rag_when_hit": {
+      "n": 46,
+      "F1": 0.7466090975889822,
+      "Judge(1-5)": 4.065217391304348
+    },
+    "rag_when_miss": {
+      "n": 4,
+      "F1": 0.07395644283121597,
+      "Judge(1-5)": 2.0
+    }
+  }
+}
