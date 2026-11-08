@@ -1,0 +1,41 @@
+# Local production-like stack: Ollama (GPU) + API.
+#   make index            # or download index-<version>.tar.gz from GitHub Releases into artifacts/
+#   docker compose up -d --build
+#   curl -s localhost:8000/ask -H 'content-type: application/json' -d '{"question":"Thủ đô của Nhật Bản là gì?"}'
+services:
+  ollama:
+    image: ollama/ollama:0.40.15
+    volumes: [ollama:/root/.ollama]
+    deploy:
+      resources:
+        reservations:
+          devices: [{driver: nvidia, count: 1, capabilities: [gpu]}]
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      retries: 30
+
+  ollama-pull:  # one-shot: download the model into the shared volume
+    image: ollama/ollama:0.40.15
+    depends_on: {ollama: {condition: service_healthy}}
+    environment: {OLLAMA_HOST: "ollama:11434"}
+    entrypoint: ["ollama", "pull", "${LLM_MODEL:-qwen3:8b}"]
+    restart: "no"
+
+  api:
+    build: {context: ., dockerfile: docker/Dockerfile, args: {APP_VERSION: "${APP_VERSION:-dev}"}}
+    image: rag-chatbot:${APP_VERSION:-dev}
+    depends_on:
+      ollama-pull: {condition: service_completed_successfully}
+    environment:
+      OLLAMA_URL: http://ollama:11434
+      LLM_MODEL: ${LLM_MODEL:-qwen3:8b}
+      RETRIEVER: ${RETRIEVER:-hybrid}
+      RERANKER: ${RERANKER:-BAAI/bge-reranker-v2-m3}
+      TOP_K: "4"
+    volumes: [models:/models, ./artifacts/index:/app/artifacts/index:ro]
+    ports: ["8000:8000"]
+
+volumes:
+  ollama:
+  models:

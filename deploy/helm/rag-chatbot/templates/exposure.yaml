@@ -1,0 +1,50 @@
+{{- if .Values.ingress.enabled }}
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ include "rag.fullname" . }}
+  labels: {{- include "rag.labels" . | nindent 4 }}
+  {{- with .Values.ingress.annotations }}
+  annotations: {{- toYaml . | nindent 4 }}
+  {{- end }}
+spec:
+  ingressClassName: {{ .Values.ingress.className }}
+  {{- if .Values.ingress.tls }}
+  tls: [{hosts: [{{ .Values.ingress.host | quote }}], secretName: {{ include "rag.fullname" . }}-tls}]
+  {{- end }}
+  rules:
+    - host: {{ .Values.ingress.host | quote }}
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend: {service: {name: {{ include "rag.fullname" . }}, port: {name: http}}}
+{{- end }}
+{{- if .Values.cloudflared.enabled }}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "rag.fullname" . }}-cloudflared
+  labels: {{- include "rag.labels" . | nindent 4 }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels: {{- include "rag.selector" . | nindent 6 }}
+      app.kubernetes.io/component: tunnel
+  template:
+    metadata:
+      labels: {{- include "rag.selector" . | nindent 8 }}
+        app.kubernetes.io/component: tunnel
+    spec:
+      containers:
+        - name: cloudflared
+          image: {{ .Values.cloudflared.image }}
+          args: ["tunnel", "--no-autoupdate", "--metrics", "0.0.0.0:2000", "run"]
+          env:
+            - name: TUNNEL_TOKEN
+              valueFrom: {secretKeyRef: {name: {{ .Values.cloudflared.secretName }}, key: token}}
+          livenessProbe:
+            httpGet: {path: /ready, port: 2000}
+            periodSeconds: 20
+{{- end }}

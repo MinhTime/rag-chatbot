@@ -1,0 +1,14 @@
+{
+  "langchain-core": "1.7.0",
+  "langchain-community": "0.4.2",
+  "langchain-huggingface": "1.2.3",
+  "langchain-ollama": "1.1.0",
+  "faiss-cpu": "1.15.1",
+  "rank-bm25": "0.2.2",
+  "sentence-transformers": "5.7.0",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "python": "3.13.16",
+  "ollama": "ollama version is 0.40.15",
+  "gpu": "Tesla T4\nTesla T4"
+}

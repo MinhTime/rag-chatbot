@@ -1,0 +1,1802 @@
+[
+ {
+  "id": "uit_019596",
+  "title": "Đảo Ireland",
+  "question": "Người Norman xâm chiếm đảo vào thế kỉ nào?",
+  "answers": [
+   "thế kỷ XII"
+  ],
+  "ctx_id": 32
+ },
+ {
+  "id": "uit_003277",
+  "title": "Lịch sử thế giới",
+  "question": "Những điều gì mà nhà Tần và Hán đã làm được cho đất nước Trung Quốc?",
+  "answers": [
+   "mở rộng sự cai trị của đế quốc thông qua sự thống nhất chính trị, cải thiện thông tin và nổi tiếng nhất là việc thành lập nhà nước độc quyền của vua Hán Quang Vũ Đế"
+  ],
+  "ctx_id": 1863
+ },
+ {
+  "id": "uit_000798",
+  "title": "Nhật Bản",
+  "question": "Cơ quan nào có vị trí cao nhất ở Nhật Bản do nhân dân bầu ra?",
+  "answers": [
+   "Quốc hội"
+  ],
+  "ctx_id": 2837
+ },
+ {
+  "id": "uit_022621",
+  "title": "Cuba",
+  "question": "Điều mà người dân Cuba e ngại hơn cả sự cai trị của Tây Ban Nha đối với họ là gì?",
+  "answers": [
+   "sự lớn mạnh của Hoa Kỳ"
+  ],
+  "ctx_id": 236
+ },
+ {
+  "id": "uit_008430",
+  "title": "Malaysia",
+  "question": "Nghĩa vụ của người Hồi giáo trong các điều luật của họ tại Malaysia là gì?",
+  "answers": [
+   "Người Hồi giáo có nghĩa vụ phải tuân theo phán quyết của các tòa án Syariah trong các vấn đề liên quan đến tôn giáo của họ"
+  ],
+  "ctx_id": 890
+ },
+ {
+  "id": "uit_007377",
+  "title": "Ả Rập Xê Út",
+  "question": "Cách thức tổ chức của một buổi biểu diễn ʿarḍah là gì?",
+  "answers": [
+   "các hàng nam giới thường mang theo gươm hoặc súng, nhảy theo tiếng trống"
+  ],
+  "ctx_id": 2956
+ },
+ {
+  "id": "uit_006728",
+  "title": "Giáo hoàng Gioan Phaolô II",
+  "question": "Lá thư Hòa giải của Giám mục Ba Lan đã gửi cho ai?",
+  "answers": [
+   "Giám mục Đức"
+  ],
+  "ctx_id": 1294
+ },
+ {
+  "id": "uit_004192",
+  "title": "Quảng Châu",
+  "question": "Quảng Châu có bao nhiêu quận thuộc trong Khu kinh tế sông Châu Giang?",
+  "answers": [
+   "9 quận"
+  ],
+  "ctx_id": 850
+ },
+ {
+  "id": "uit_022459",
+  "title": "Iran",
+  "question": "Vì sao Mohammad Reza Pahlavi thay đổi thái độ trong việc sử dụng từ ngữ Iran và Persia?",
+  "answers": [
+   "các học giả lên tiếng phản đối"
+  ],
+  "ctx_id": 349
+ },
+ {
+  "id": "uit_002982",
+  "title": "Động vật lưỡng cư",
+  "question": "Từ \"Amphibia\" có nguồn gốc từ đâu?",
+  "answers": [
+   "tiếng Hy Lạp cổ đại"
+  ],
+  "ctx_id": 367
+ },
+ {
+  "id": "uit_020722",
+  "title": "Việt Nam",
+  "question": "Hoa Kỳ đã có hành động gì trước tình hình của Việt Nam Cộng Hòa có dấu hiệu sụp đổ?",
+  "answers": [
+   "chính thức can thiệp quân sự, đưa quân Mỹ vào chiến đấu trực tiếp tại chiến trường Nam Việt Nam và thực hiện các đợt ném bom vào miền Bắc"
+  ],
+  "ctx_id": 1935
+ },
+ {
+  "id": "uit_022592",
+  "title": "Cuba",
+  "question": "Năm bắt đầu của lịch sử Cuba là vào năm nào?",
+  "answers": [
+   "năm 1492"
+  ],
+  "ctx_id": 178
+ },
+ {
+  "id": "uit_026946",
+  "title": "Vladimir Vladimirovich Putin",
+  "question": "Nguyên nhân chính của sự suy yếu của nền kinh tế Nga năm 2014 là gì?",
+  "answers": [
+   "do việc các nước phương Tây áp đặt trừng phạt kinh tế do sự can thiệp quân sự của Nga ở Ukraina và việc giảm giá của dầu thô"
+  ],
+  "ctx_id": 2963
+ },
+ {
+  "id": "uit_016715",
+  "title": "Chiến tranh Triều Tiên",
+  "question": "Quân đội Trung Quốc xác nhận có bao nhiêu phi cơ của họ bị hạ trong lúc không chiến?",
+  "answers": [
+   "231"
+  ],
+  "ctx_id": 948
+ },
+ {
+  "id": "uit_002534",
+  "title": "Người Ê Đê",
+  "question": "Tỉnh Khánh Hòa ngày nay nằm trên lãnh thổ của tiểu vương quốc nào thuộc Chiêm Thành năm xưa?",
+  "answers": [
+   "Kauthara"
+  ],
+  "ctx_id": 1562
+ },
+ {
+  "id": "uit_018219",
+  "title": "Lịch sử Hoa Kỳ",
+  "question": "Tổ chức tiền thân của liên đoàn Nhân công Nông trại Mỹ Thống nhất là do ai thành lập?",
+  "answers": [
+   "Chávez"
+  ],
+  "ctx_id": 1207
+ },
+ {
+  "id": "uit_012705",
+  "title": "Birmingham",
+  "question": "GDP Birmingham vào năm 2014 đạt bao nhiêu?",
+  "answers": [
+   "121,1 tỉ USD"
+  ],
+  "ctx_id": 1908
+ },
+ {
+  "id": "uit_000976",
+  "title": "Nhật Bản",
+  "question": "Có bao nhiêu quốc gia được xem là chủ nhà của World Cup 2002?",
+  "answers": [
+   "2"
+  ],
+  "ctx_id": 344
+ },
+ {
+  "id": "uit_000931",
+  "title": "Nhật Bản",
+  "question": "Các ngành nghề nào thể hiện nét đẹp của nghệ thuật truyền thống Nhật Bản?",
+  "answers": [
+   "ikebana, origami, ukiyo-e, đồ chơi, đồ gỗ sơn mài và gốm sứ"
+  ],
+  "ctx_id": 12
+ },
+ {
+  "id": "uit_002733",
+  "title": "Thổ Nhĩ Kỳ",
+  "question": "Thể chế chính trị của Thổ Nhĩ Kỳ đã thay đổi thành thể chế nào từ sau năm 2017?",
+  "answers": [
+   "Tổng thống chế"
+  ],
+  "ctx_id": 991
+ },
+ {
+  "id": "uit_006565",
+  "title": "Giáo hoàng Gioan Phaolô II",
+  "question": "Tại Bồ Đào Nha ông đã nói những gì?",
+  "answers": [
+   "Công lý đòi hỏi những người nông dân có thể canh tác trên mảnh đất của chính họ"
+  ],
+  "ctx_id": 950
+ },
+ {
+  "id": "uit_007047",
+  "title": "Ả Rập Xê Út",
+  "question": "Khu vực nào đã bị các học trò của Muhammad chiếm đóng?",
+  "answers": [
+   "từ bán đảo Iberia ở phía tây đến Pakistan ngày nay ở phía đông"
+  ],
+  "ctx_id": 2623
+ },
+ {
+  "id": "uit_015359",
+  "title": "Tôm tít",
+  "question": "Tôm bùa có thể búng càng nhanh như thế nào?",
+  "answers": [
+   "gia tốc lên đến 10.400 'g' (102.000 m/giây2 hay 335.000 ft/giây2) và vận tốc 23 m/giây từ khởi đầu bất động, bằng với gia tốc của một viên đạn 0,22 calibre"
+  ],
+  "ctx_id": 1032
+ },
+ {
+  "id": "uit_018537",
+  "title": "Nhà Minh",
+  "question": "Các sự kiện đối nội quan trọng trong thời kỳ trị vì của Minh Thần Tông là gì?",
+  "answers": [
+   "Đông Lâm đảng tranh, Quốc bản chi tranh và Vạn Lịch đãi chính"
+  ],
+  "ctx_id": 639
+ },
+ {
+  "id": "uit_000844",
+  "title": "Nhật Bản",
+  "question": "Quy mô của thị trường chứng khoán Nhật Bản xếp hạng thứ mấy trên thế giới?",
+  "answers": [
+   "thứ hai"
+  ],
+  "ctx_id": 2847
+ },
+ {
+  "id": "uit_017181",
+  "title": "Trung Quốc Quốc dân Đảng",
+  "question": "Chính sách tam đại bao gồm những gì?",
+  "answers": [
+   "liên Nga, dung Cộng, phù trợ nông-công"
+  ],
+  "ctx_id": 383
+ },
+ {
+  "id": "uit_006028",
+  "title": "Châu Mỹ",
+  "question": "Ai tán dương khám phá Nam Mỹ và cho rằng nó đã tách biệt với Châu Á?",
+  "answers": [
+   "Vespucci"
+  ],
+  "ctx_id": 1124
+ },
+ {
+  "id": "uit_021895",
+  "title": "Bức tường Berlin",
+  "question": "Sự họp mặt ba vị lãnh đạo là nhằm lý do gì?",
+  "answers": [
+   "đánh dấu ngày đầu tiên cho một loạt lễ kỷ niệm sự sụp đổ của bức tường Berlin"
+  ],
+  "ctx_id": 965
+ },
+ {
+  "id": "uit_019917",
+  "title": "Đảo Ireland",
+  "question": "Ngành cổ xưa của Ireland là gì?",
+  "answers": [
+   "dựa vào than bùn để làm nguồn năng lượng"
+  ],
+  "ctx_id": 118
+ },
+ {
+  "id": "uit_021509",
+  "title": "Richard I của Anh",
+  "question": "Hiệp ước ngày 4 tháng 3 năm 1191 được ký bởi những ai?",
+  "answers": [
+   "Richard, Philip và Tancred"
+  ],
+  "ctx_id": 194
+ },
+ {
+  "id": "uit_016711",
+  "title": "Chiến tranh Triều Tiên",
+  "question": "Trong báo cáo của Liên Xô, có bao nhiêu máy bay MiG-15 của họ bị bắn hạ?",
+  "answers": [
+   "345"
+  ],
+  "ctx_id": 2631
+ },
+ {
+  "id": "uit_012636",
+  "title": "Nhu cầu",
+  "question": "Tại sao nhu yếu phát triển tồn tại trong cơ thể sống?",
+  "answers": [
+   "hướng tới những đối tượng mới và thay đổi dần những giá trị cũ để phù hợp với sự thay đổi thường xuyên của môi trường"
+  ],
+  "ctx_id": 137
+ },
+ {
+  "id": "uit_006618",
+  "title": "Giáo hoàng Gioan Phaolô II",
+  "question": "Phát biểu đã gây nên tranh cãi là vì giáo hoàng đã nói về việc gì?",
+  "answers": [
+   "Phật giáo"
+  ],
+  "ctx_id": 1352
+ },
+ {
+  "id": "uit_013617",
+  "title": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
+  "question": "Mục tiêu hoạt động của Đảng Nhân dân Cách mạng là gì?",
+  "answers": [
+   "chống thực dân, đế quốc và phong kiến"
+  ],
+  "ctx_id": 618
+ },
+ {
+  "id": "uit_018178",
+  "title": "Lịch sử Hoa Kỳ",
+  "question": "Bằng sự kiện nào để khẳng định được chiến thắng đã dành cho Hoa Kỳ trong cuộc đua vào thế giới ngàn vì sao?",
+  "answers": [
+   "phi thuyền Apollo 11 đưa các phi hành gia đặt chân lên Mặt Trăng"
+  ],
+  "ctx_id": 1156
+ },
+ {
+  "id": "uit_008508",
+  "title": "Malaysia",
+  "question": "Những ngày lễ đáng chú ý của cộng đồng Ki-tô giáo Malaysia nói riêng và Ki-tô giáo thế giới nói chung là những ngày nào?",
+  "answers": [
+   "là lễ Giáng sinh và Phục sinh"
+  ],
+  "ctx_id": 315
+ },
+ {
+  "id": "uit_024553",
+  "title": "Pháp",
+  "question": "Điều gì được nhìn nhận như một thời khắc bắt đầu chuyển đổi hệ tư tưởng ở Pháp?",
+  "answers": [
+   "khởi nghĩa tháng 5 năm 1968"
+  ],
+  "ctx_id": 149
+ },
+ {
+  "id": "uit_026226",
+  "title": "Johannes Kepler",
+  "question": "Tác phẩm đầu tiên tận dụng các định luật chuyển động hành tinh của Kepler do ai viết?",
+  "answers": [
+   "Jean-Étienne Montucla"
+  ],
+  "ctx_id": 1407
+ },
+ {
+  "id": "uit_000198",
+  "title": "Phần mềm giáo dục",
+  "question": "Việc thiết kế các phần mềm giáo dục tại nhà đã bị ảnh hưởng bởi phần mềm nào?",
+  "answers": [
+   "trò chơi trên máy tính"
+  ],
+  "ctx_id": 2088
+ },
+ {
+  "id": "uit_023147",
+  "title": "John von Neumann",
+  "question": "Định nghĩa của một \"lớp nhỏ hơn\" là gì?",
+  "answers": [
+   "một lớp không thuộc về lớp nào khác"
+  ],
+  "ctx_id": 1306
+ },
+ {
+  "id": "uit_024428",
+  "title": "Pháp",
+  "question": "Ai là người tuyên bố thành lập Vương quốc Pháp vào năm 1190?",
+  "answers": [
+   "Philippe II Auguste"
+  ],
+  "ctx_id": 2883
+ },
+ {
+  "id": "uit_004852",
+  "title": "Công nghệ thông tin và truyền thông",
+  "question": "Sự gắn kết của nghe-nhìn và mạng điện thoại với mạng máy tính qua một đường dây đơn hoặc hệ thống liên kết đã giải thích sự ám chỉ của cụm từ nào?",
+  "answers": [
+   "ICT"
+  ],
+  "ctx_id": 455
+ },
+ {
+  "id": "uit_021374",
+  "title": "Richard I của Anh",
+  "question": "William IX mất năm nào?",
+  "answers": [
+   "năm 1156"
+  ],
+  "ctx_id": 211
+ },
+ {
+  "id": "uit_012722",
+  "title": "Birmingham",
+  "question": "Birmingham lần đầu xuất hiện khi nào?",
+  "answers": [
+   "thế kỷ 6 hoặc đầu thế kỷ 7"
+  ],
+  "ctx_id": 2493
+ },
+ {
+  "id": "uit_010164",
+  "title": "Ukraina",
+  "question": "Thế kỷ XIX khởi đầu với gì?",
+  "answers": [
+   "thời kỳ tiếng địa phương tại Ukraina"
+  ],
+  "ctx_id": 1079
+ },
+ {
+  "id": "uit_008507",
+  "title": "Malaysia",
+  "question": "Các lễ hội của tín đồ Ấn Độ giáo tại Malaysia được tổ chức như thế nào?",
+  "answers": [
+   "Tín đồ Ấn Độ giáo tại Malaysia tổ chức Deepavali, lễ hội ánh sáng, trong khi Thaipusam là một nghi thức tôn giáo và khi đó xuất hiện việc người hành hương từ khắp nước hội tụ về động Batu"
+  ],
+  "ctx_id": 315
+ },
+ {
+  "id": "uit_004678",
+  "title": "Thực vật",
+  "question": "Loài thực vật nào chiếm đại đa số trong giới thực vật ngày nay?",
+  "answers": [
+   "Thực vật hạt kín"
+  ],
+  "ctx_id": 2168
+ },
+ {
+  "id": "uit_006459",
+  "title": "Giáo hoàng Gioan Phaolô II",
+  "question": "Ở Solvay ông làm kế toán ở đâu?",
+  "answers": [
+   "mỏ đá"
+  ],
+  "ctx_id": 1874
+ },
+ {
+  "id": "uit_023272",
+  "title": "HIV/AIDS",
+  "question": "HIV/AIDS là tên viết tắt của hội chứng có tên tiếng việt là gì?",
+  "answers": [
+   "Hội chứng suy giảm miễn dịch"
+  ],
+  "ctx_id": 189
+ },
+ {
+  "id": "uit_010052",
+  "title": "Ukraina",
+  "question": "Sông Seversky Donets, Dniester và Southern chảy về đâu?",
+  "answers": [
+   "chảy về phía nam vào Biển Đen và Biển Azov"
+  ],
+  "ctx_id": 2950
+ },
+ {
+  "id": "uit_001238",
+  "title": "Albert Einstein",
+  "question": "Bài báo năm 1905 của Einstein đã bác bỏ sự tồn tại của điều gì?",
+  "answers": [
+   "ête (vật lý)"
+  ],
+  "ctx_id": 2887
+ },
+ {
+  "id": "uit_008807",
+  "title": "Michael Jackson",
+  "question": "Động thái của Sony như thế nào sau khi Jackson mất?",
+  "answers": [
+   "họ sẽ tiếp tục phát triển thêm nhiều dự án với âm nhạc của Jackson, trong đó Sony Music giữ quyền phân phối cho đến năm 2015"
+  ],
+  "ctx_id": 1884
+ },
+ {
+  "id": "uit_021649",
+  "title": "Richard I của Anh",
+  "question": "Các nhà văn Hồi giáo trong thời Thập tự chinh và sau này viết về ông như thế nào?",
+  "answers": [
+   "Chúng ta chưa bao giờ phải đối đầu với một đối thủ táo bạo và quỷ quyệt hơn"
+  ],
+  "ctx_id": 390
+ },
+ {
+  "id": "uit_023602",
+  "title": "Hà Nội",
+  "question": "Tại Thăng Long người Hoa có hẳn một phường, vậy phường đó tên là gì?",
+  "answers": [
+   "phường Đường Nhân"
+  ],
+  "ctx_id": 3129
+ },
+ {
+  "id": "uit_004370",
+  "title": "Thành phố Hồ Chí Minh",
+  "question": "Áp dụng hình thức khai thác tài nguyên thuộc địa dã giúp ích như thế nào đối với thực dân Pháp?",
+  "answers": [
+   "Pháp không cần thành lập một bộ máy hành chính hiệu quả nhằm tăng năng suất, cũng không cần thực hiện công nghiệp hóa ở quy mô lớn"
+  ],
+  "ctx_id": 1211
+ },
+ {
+  "id": "uit_014366",
+  "title": "Lý thuyết tập hợp",
+  "question": "Lý thuyết tập hợp được sử dụng ở lĩnh vực nào?",
+  "answers": [
+   "toán học"
+  ],
+  "ctx_id": 1193
+ },
+ {
+  "id": "uit_011440",
+  "title": "Hồ Quý Ly",
+  "question": "Quân của Lê Quý Ly đóng ở đâu?",
+  "answers": [
+   "núi Long Đại"
+  ],
+  "ctx_id": 1969
+ },
+ {
+  "id": "uit_020840",
+  "title": "Việt Nam",
+  "question": "Việt Nam có bao nhiêu năm đạt tăng trưởng GDP trên 8% trong giai đoạn từ năm 2007-2011?",
+  "answers": [
+   "1 năm"
+  ],
+  "ctx_id": 1177
+ },
+ {
+  "id": "uit_021695",
+  "title": "Hải ly",
+  "question": "Loài nào có quan hệ gần với hải ly?",
+  "answers": [
+   "sóc"
+  ],
+  "ctx_id": 431
+ },
+ {
+  "id": "uit_024375",
+  "title": "Pháp",
+  "question": "Ngành luyện kim xuất hiện vào thời gian nào trên đất Pháp?",
+  "answers": [
+   "cuối thiên niên kỷ 3 TCN"
+  ],
+  "ctx_id": 2300
+ },
+ {
+  "id": "uit_002865",
+  "title": "Thổ Nhĩ Kỳ",
+  "question": "Có bao nhiêu phân trăm dân số Thổ Nhĩ Kỳ đi theo đạo hồi?",
+  "answers": [
+   "99,8%"
+  ],
+  "ctx_id": 1919
+ },
+ {
+  "id": "uit_014015",
+  "title": "Đế quốc Parthia",
+  "question": "Mục đích của vua Iberia Pharasmanes I trong cuộc tiến quân xâm lược Armenia là gì?",
+  "answers": [
+   "lật đổ vị vua chư hầu La Mã, vua Mithridates"
+  ],
+  "ctx_id": 1587
+ },
+ {
+  "id": "uit_018719",
+  "title": "Nhà Minh",
+  "question": "Tam cô là gồm những chức quan nào?",
+  "answers": [
+   "thiếu sư, thiếu phó, thiếu bảo"
+  ],
+  "ctx_id": 263
+ },
+ {
+  "id": "uit_015358",
+  "title": "Tôm tít",
+  "question": "Tôm tít tấn công con mồi bằng cách nào?",
+  "answers": [
+   "bung càng ra thật nhanh và đập càng thật mạnh vào con mồi"
+  ],
+  "ctx_id": 1032
+ },
+ {
+  "id": "uit_018970",
+  "title": "Sao Hải Vương",
+  "question": "Tại sao các nhà khoa học viết sự tồn tại sự ngắt quãng của các vành đai?",
+  "answers": [
+   "Các nhà khoa học vẫn quan sát thấy ánh sáng của một ngôi sao ở xa trong khi đáng lẽ nó phải bị che khuất bởi các vành đai"
+  ],
+  "ctx_id": 1102
+ },
+ {
+  "id": "uit_000585",
+  "title": "Edward I của Anh",
+  "question": "Điều gì được cho là cấm kỵ đối với tín hữu Kito giáo?",
+  "answers": [
+   "cho vay nặng lãi"
+  ],
+  "ctx_id": 550
+ },
+ {
+  "id": "uit_015922",
+  "title": "Đại học Harvard",
+  "question": "Hệ thống thư viện Viện Đại học Harvard lớn thứ mấy ở Mỹ?",
+  "answers": [
+   "nhất"
+  ],
+  "ctx_id": 1345
+ },
+ {
+  "id": "uit_013272",
+  "title": "Sao Kim",
+  "question": "JAXA đã thiết kế và chế tạo tàu nào?",
+  "answers": [
+   "Akatsuki"
+  ],
+  "ctx_id": 155
+ },
+ {
+  "id": "uit_017981",
+  "title": "Lịch sử Hoa Kỳ",
+  "question": "Để gây tiêu hao cho miề Bắc và tìm nguồn tiếp tế thì Lee đã xâm chiếm nơi nào?",
+  "answers": [
+   "Pennsylvania"
+  ],
+  "ctx_id": 269
+ },
+ {
+  "id": "uit_011512",
+  "title": "Hồ Quý Ly",
+  "question": "Tiền giấy xuất hiện năm nào?",
+  "answers": [
+   "năm 1396"
+  ],
+  "ctx_id": 2100
+ },
+ {
+  "id": "uit_019451",
+  "title": "Trung Hoa Dân Quốc (1912-1949)",
+  "question": "Độ dài công lộ Hán Trung-Thất Bàn Quan là bao nhiêu?",
+  "answers": [
+   "hơn 150 km"
+  ],
+  "ctx_id": 1730
+ },
+ {
+  "id": "uit_026097",
+  "title": "Johannes Kepler",
+  "question": "Kepler đã mở rộng những vấn đề đúc kết nghiên cứu khoa học nào của mình trong cuốn Astronomia Nova?",
+  "answers": [
+   "hai định luật đầu về chuyển động hành tinh-bắt đầu với phân tích, dưới sự chỉ dẫn của Tycho, về quỹ đạo Sao Hỏa"
+  ],
+  "ctx_id": 960
+ },
+ {
+  "id": "uit_017016",
+  "title": "Cục Điều tra Liên bang",
+  "question": "Việc làm nào của FBI bị cho là thổi phồng sự thật?",
+  "answers": [
+   "việc xác định được các mảnh đạn từ hộp đạn nào"
+  ],
+  "ctx_id": 76
+ },
+ {
+  "id": "uit_027114",
+  "title": "Chiến tranh Đông Dương",
+  "question": "Quốc gia nào trong Khối Đồng Minh không ủng hộ việc Pháp tham gia vào chiến lược Viễn Đông?",
+  "answers": [
+   "Mỹ"
+  ],
+  "ctx_id": 572
+ },
+ {
+  "id": "uit_023349",
+  "title": "HIV/AIDS",
+  "question": "Bệnh nấm miệng có nguyên nhân gây ra là do bị nhiễm cái gì?",
+  "answers": [
+   "vi nấm Candida species"
+  ],
+  "ctx_id": 2523
+ },
+ {
+  "id": "uit_013329",
+  "title": "Amur (tỉnh)",
+  "question": "Hoạt động nào là tiền đề để cho sự phát triển kinh tế của tỉnh Amur từ năm 1948?",
+  "answers": [
+   "khai thác vàng"
+  ],
+  "ctx_id": 2099
+ },
+ {
+  "id": "uit_012127",
+  "title": "Vườn quốc gia Phong Nha - Kẻ Bàng",
+  "question": "Hang Sơn Động có kích thước to gấp bao nhiêu lần so với hang Phong Nha?",
+  "answers": [
+   "4-5 lần"
+  ],
+  "ctx_id": 289
+ },
+ {
+  "id": "uit_005353",
+  "title": "Nhà Hán",
+  "question": "Hán An Đế lên làm vua vào năm bao nhiêu tuổi?",
+  "answers": [
+   "12 tuổi"
+  ],
+  "ctx_id": 7
+ },
+ {
+  "id": "uit_001743",
+  "title": "Karl Marx",
+  "question": "Vì sao Marx không được nhập quốc tịch Anh?",
+  "answers": [
+   "ông là \"một người Đức chuyên xúi bẩy\""
+  ],
+  "ctx_id": 1951
+ },
+ {
+  "id": "uit_026052",
+  "title": "Johannes Kepler",
+  "question": "Tại sao vào thời gian đầu làm việc cho Tycho, Kepler không thể nào tiếp cận được số liệu phân tích trong nghiên cứu sao hoả của ông ta?",
+  "answers": [
+   "Tycho canh giữ dữ liệu của mình rất cẩn thận"
+  ],
+  "ctx_id": 1178
+ },
+ {
+  "id": "uit_003237",
+  "title": "Lịch sử thế giới",
+  "question": "Thời điểm tại Trung Quốc xuất hiện các quốc gia là khi nào?",
+  "answers": [
+   "cuối thiên niên kỷ thứ ba đầu thiên niên kỷ thứ hai TCN"
+  ],
+  "ctx_id": 2532
+ },
+ {
+  "id": "uit_025160",
+  "title": "Trung Quốc",
+  "question": "Triều đại phong kiến cuối cùng của Trung Quốc là triều đại nào?",
+  "answers": [
+   "Thanh"
+  ],
+  "ctx_id": 1491
+ },
+ {
+  "id": "uit_003778",
+  "title": "Roma",
+  "question": "Kể từ năm 1870, khi Roma trở thành thủ đô của Vương quốc Ý, trường phái phong cách nào mang tính chủ đạo trong kiến trúc La Mã?",
+  "answers": [
+   "trường phái tân cổ điển với phong cách xây dựng chịu ảnh hưởng của kiến trúc cổ xưa đã chiếm ưu thế vượt trội trong kiến trúc La Mã"
+  ],
+  "ctx_id": 3123
+ },
+ {
+  "id": "uit_011609",
+  "title": "Hồ Quý Ly",
+  "question": "Ai chịu tội làm mất nước Nam?",
+  "answers": [
+   "Quý Ly"
+  ],
+  "ctx_id": 2490
+ },
+ {
+  "id": "uit_004713",
+  "title": "Thực vật",
+  "question": "Nêu tác dụng của nấm trong hoạt động trao đổi chất?",
+  "answers": [
+   "giúp cho cây thu được nước và các chất dinh dưỡng từ đất"
+  ],
+  "ctx_id": 2569
+ },
+ {
+  "id": "uit_002854",
+  "title": "Thổ Nhĩ Kỳ",
+  "question": "Dân tộc nào có số lượng dân cư lớn nhất Thổ Nhĩ Kỳ?",
+  "answers": [
+   "dân tộc Thổ Nhĩ Kỳ"
+  ],
+  "ctx_id": 363
+ },
+ {
+  "id": "uit_004947",
+  "title": "Hà Nam (Trung Quốc)",
+  "question": "Trận đánh nào thì triều Đông Tấn đã giành chiến thắng trước triều Tiền Tần?",
+  "answers": [
+   "trận Phì Thủy"
+  ],
+  "ctx_id": 1881
+ },
+ {
+  "id": "uit_015852",
+  "title": "Đại học Harvard",
+  "question": "Trường đại học Harvard đào tạo cả nam và nữ khi nào?",
+  "answers": [
+   "năm 1977 khi nó sáp nhập với Trường Đại học Radcliffe"
+  ],
+  "ctx_id": 3079
+ },
+ {
+  "id": "uit_025567",
+  "title": "Trung Quốc",
+  "question": "Đài Truyền hình nào được phủ sóng chủ yếu tại Trung Hoa Đại lục?",
+  "answers": [
+   "Đài Truyền hình Trung ương Trung Quốc (CCTV)"
+  ],
+  "ctx_id": 610
+ },
+ {
+  "id": "uit_015318",
+  "title": "Luxembourg",
+  "question": "Thể chế chính trị của nhà nước Luxembourg là gì?",
+  "answers": [
+   "quân chủ lập hiến đa đảng"
+  ],
+  "ctx_id": 198
+ },
+ {
+  "id": "uit_003941",
+  "title": "Roma",
+  "question": "Tại sao trong thời kì Phục Hưng, Roma lại trở thành một ttrung tâm ẩm thực lớn?",
+  "answers": [
+   "vì một số đầu bếp giỏi nhất thời đại làm việc cho các Giáo hoàng"
+  ],
+  "ctx_id": 2411
+ },
+ {
+  "id": "uit_023815",
+  "title": "Hà Nội",
+  "question": "Trong các lĩnh vực thì lĩnh vực nào có tốc độ tăng trưởng GDP thấp nhất?",
+  "answers": [
+   "nông nghiệp"
+  ],
+  "ctx_id": 2671
+ },
+ {
+  "id": "uit_011966",
+  "title": "George Washington",
+  "question": "Tài sản của bà Martha Custis được Washington sử dụng vào việc gì?",
+  "answers": [
+   "Ông dùng tài sản giàu có của vợ để mua thêm đất, tăng gấp ba lần diện tích đồn điền, và thêm nhiều nô lệ để canh tác đồn điền"
+  ],
+  "ctx_id": 2809
+ },
+ {
+  "id": "uit_018672",
+  "title": "Nhà Minh",
+  "question": "Chức vụ tổng đốc được chia thành các loại nào?",
+  "answers": [
+   "ngắn hạn và dài hạn"
+  ],
+  "ctx_id": 1840
+ },
+ {
+  "id": "uit_015648",
+  "title": "Donald Trump",
+  "question": "Ý kiến của Trump về các nhà máy phát điện gió như thế nào?",
+  "answers": [
+   "hủy hoại mọi vùng quê mà chúng có mặt"
+  ],
+  "ctx_id": 2712
+ },
+ {
+  "id": "uit_008473",
+  "title": "Malaysia",
+  "question": "Tại Đông Malaysia, agung và kulintang được sử dụng ở những nơi nào?",
+  "answers": [
+   "được sử dụng phổ biến trong các dịp lễ như tang lễ và hôn lễ"
+  ],
+  "ctx_id": 1822
+ },
+ {
+  "id": "uit_017941",
+  "title": "Lịch sử Hoa Kỳ",
+  "question": "Đảng nào đã thống trị tất cả các tiểu bang miền Bắc tính đến cuối thập niên 1850?",
+  "answers": [
+   "đảng Cộng hòa"
+  ],
+  "ctx_id": 422
+ },
+ {
+  "id": "uit_005540",
+  "title": "Alexandros Đại đế",
+  "question": "Có một truyền thống văn học xem ông là nhân vật như thế nào?",
+  "answers": [
+   "một anh hùng huyền thoại theo truyền thống của Achilles (Asin)"
+  ],
+  "ctx_id": 559
+ },
+ {
+  "id": "uit_011645",
+  "title": "George Washington",
+  "question": "Công việc thanh tra quận Culpeper đã mang lại cho Washington nhữn gì?",
+  "answers": [
+   "đã giúp cho ông mua được đất đai trong thung lũng Shenandoah, đây cũng là lần đầu tiên trong số nhiều vụ mua đất đai của ông tại Tây Virginia"
+  ],
+  "ctx_id": 1626
+ },
+ {
+  "id": "uit_001916",
+  "title": "Karl Marx",
+  "question": "Mặt trái của vấn đề trên là gì?",
+  "answers": [
+   "đầu tiên nó phải trải qua cùng quá trình tan rã như các cấu thành của tiến trình lịch sử của phương Tây"
+  ],
+  "ctx_id": 2634
+ },
+ {
+  "id": "uit_001477",
+  "title": "Cộng hòa Dân chủ Đức",
+  "question": "Nguyên nhân mà Đông Đức được gọi là \"Mitteldeutschland\" là gì?",
+  "answers": [
+   "Đông Đức trên thực tế nằm ở trung tâm nhà nước Đức"
+  ],
+  "ctx_id": 666
+ },
+ {
+  "id": "uit_018119",
+  "title": "Lịch sử Hoa Kỳ",
+  "question": "Quốc hội Hoa Kỳ đã bị ảnh hưởng một cách dị thường bởi Roosevelt trong khoảng thời gian nào?",
+  "answers": [
+   "một trăm ngày đầu tiên của nhiệm kỳ tổng thống"
+  ],
+  "ctx_id": 2356
+ },
+ {
+  "id": "uit_001830",
+  "title": "Karl Marx",
+  "question": "Tỉ lệ người vô sản và tư bản như thế nào?",
+  "answers": [
+   "Những người vô sản do vậy sẽ chiếm đa số so với những nhà tư bản"
+  ],
+  "ctx_id": 1046
+ },
+ {
+  "id": "uit_005729",
+  "title": "Alexandros Đại đế",
+  "question": "Vì sao Alexandros không cưỡi con Bucephalus?",
+  "answers": [
+   "con Bucephalus lúc đó đã già"
+  ],
+  "ctx_id": 1334
+ },
+ {
+  "id": "uit_001835",
+  "title": "Karl Marx",
+  "question": "Marx gọi sự thành công của ngành công nghiệp là gì?",
+  "answers": [
+   "giá trị thặng dư"
+  ],
+  "ctx_id": 127
+ },
+ {
+  "id": "uit_025703",
+  "title": "Samsung Electronics",
+  "question": "Năm 1984, Samsung đứng thứ mấy trong việc phát triển 64kb DRAM?",
+  "answers": [
+   "thứ ba"
+  ],
+  "ctx_id": 1761
+ },
+ {
+  "id": "uit_005093",
+  "title": "Hà Nam (Trung Quốc)",
+  "question": "Nơi sông Hoàng Hà chảy theo hướng đông-đông bắc trong tỉnh Hà Nam là ranh giới giữa Hà Nam với nơi nào?",
+  "answers": [
+   "Sơn Tây"
+  ],
+  "ctx_id": 2890
+ },
+ {
+  "id": "uit_009097",
+  "title": "Người Do Thái",
+  "question": "Theo bản tường thuật Kinh Thánh Hebrew, tổ tiên của người Do Thái được truy ra là có nguồn gốc từ các bậc tổ phục trong Kinh thánh như ai?",
+  "answers": [
+   "Abraham"
+  ],
+  "ctx_id": 1002
+ },
+ {
+  "id": "uit_008556",
+  "title": "Thiên Chúa",
+  "question": "Phát biểu về phát kiến nền tảng của môn thần học Kinh Thánh là của thánh kinh sử gia nào?",
+  "answers": [
+   "Yehezkal Kaufmann"
+  ],
+  "ctx_id": 1128
+ },
+ {
+  "id": "uit_027155",
+  "title": "Chiến tranh Đông Dương",
+  "question": "Mục đích của Nhật đối với châu Á là gì?",
+  "answers": [
+   "lôi kéo các nước châu Á mà họ đã thôn tính được, bắt các nước này đóng góp nhận lực, của cải để Nhật tiến hành chiến tranh chống Anh, Mỹ, cũng như triệt tiêu ý định chống Nhật tại các nước này"
+  ],
+  "ctx_id": 1261
+ },
+ {
+  "id": "uit_002282",
+  "title": "Thư viện Quốc gia Pháp",
+  "question": "thư viện hoàng gia thế kỷ 15 trở nên đồ sộ hơn nhờ vào sự kiện nào?",
+  "answers": [
+   "nhờ những chiến lợi phẩm của hai vị vua Charles VIII và Louis XII trong cuộc xâm lăng nước Ý"
+  ],
+  "ctx_id": 930
+ },
+ {
+  "id": "uit_016159",
+  "title": "Đại học New York",
+  "question": "Những trường nào thuộc NYU vẫn tọa lạc tại Quảng Trường Washington?",
+  "answers": [
+   "đào tạo bậc sau đại học"
+  ],
+  "ctx_id": 548
+ },
+ {
+  "id": "uit_019429",
+  "title": "Trung Hoa Dân Quốc (1912-1949)",
+  "question": "Ngành xi măng trong thời kỳ 1931-1936 đã đạt được tốc độ tăng trưởng là bao nhiêu?",
+  "answers": [
+   "9,6%"
+  ],
+  "ctx_id": 88
+ },
+ {
+  "id": "uit_003088",
+  "title": "Lịch sử thế giới",
+  "question": "Lịch sử loài người được đánh dấu cho sự phát triển bằng sự kiện nào?",
+  "answers": [
+   "Cuộc cách mạng nông nghiệp"
+  ],
+  "ctx_id": 2196
+ },
+ {
+  "id": "uit_026204",
+  "title": "Johannes Kepler",
+  "question": "Khi nào thì Kepler đảm nhiệm vị trí cố vấn cho Wallenstein?",
+  "answers": [
+   "Năm 1628"
+  ],
+  "ctx_id": 1650
+ },
+ {
+  "id": "uit_025021",
+  "title": "Pháp",
+  "question": "Pháp có mấy kênh truyền hình quốc gia?",
+  "answers": [
+   "Bốn kênh truyền hình quốc gia"
+  ],
+  "ctx_id": 993
+ },
+ {
+  "id": "uit_018300",
+  "title": "Lịch sử Hoa Kỳ",
+  "question": "Một cuộc tấn công khủng bố vào đất nước Hoa Kỳ đã xảy ra thời gian nào của năm 2001?",
+  "answers": [
+   "Ngày 11 tháng 9"
+  ],
+  "ctx_id": 408
+ },
+ {
+  "id": "uit_020338",
+  "title": "Đế quốc La Mã",
+  "question": "Quân đội La Mã kiểm soát với các vùng đấy như thế nào?",
+  "answers": [
+   "Quân đội thiết lập sự kiểm soát đối với các vùng đất thông qua chiến tranh"
+  ],
+  "ctx_id": 1127
+ },
+ {
+  "id": "uit_020210",
+  "title": "Đế quốc La Mã",
+  "question": "Tiếng Latin chuẩn là gì?",
+  "answers": [
+   "một trào lưu ngôn ngữ được đồng nhất theo những thuật ngữ hiện đại như là tiếng La tinh cổ điển"
+  ],
+  "ctx_id": 3032
+ },
+ {
+  "id": "uit_021141",
+  "title": "Quốc hội Hoa Kỳ",
+  "question": "Kể từ sau năm 1803 thì lần tiếp theo mà tòa án tối cao vô hiệu hóa luật của quốc hội đã diễn ra vào năm nào?",
+  "answers": [
+   "năm 1857"
+  ],
+  "ctx_id": 1949
+ },
+ {
+  "id": "uit_002795",
+  "title": "Thổ Nhĩ Kỳ",
+  "question": "Nơi cao nhất và cái hồ lớn nhất của Thổ Nhĩ Kỳ nằm ở miền nào của nó?",
+  "answers": [
+   "Miền đông của Thổ Nhĩ Kỳ"
+  ],
+  "ctx_id": 4
+ },
+ {
+  "id": "uit_025878",
+  "title": "Nam Đại Dương",
+  "question": "Vào mùa đông, nhiệt độ nước bề mặt xuống dưới bao nhiêu độ C?",
+  "answers": [
+   "0"
+  ],
+  "ctx_id": 1055
+ },
+ {
+  "id": "uit_019407",
+  "title": "Trung Hoa Dân Quốc (1912-1949)",
+  "question": "Ngoi trường nào đã được Tôn Trung Sơn thành lập vào năm 1924?",
+  "answers": [
+   "Trường Phi cơ Quân sự"
+  ],
+  "ctx_id": 2557
+ },
+ {
+  "id": "uit_014147",
+  "title": "Đế quốc Parthia",
+  "question": "Trang phục người đàn ông cưỡi ngưa xuất hiện phổ biến ở đâu?",
+  "answers": [
+   "những hình chạm khắc trên những đồng tiền Parthia có niên đại từ giữa thế kỷ 1 TCN"
+  ],
+  "ctx_id": 2033
+ },
+ {
+  "id": "uit_024176",
+  "title": "Đồng Tháp",
+  "question": "Tỉnh lỵ Cao Lãnh thuộc khu vực nào?",
+  "answers": [
+   "xã Mỹ Trà, quận Cao Lãnh"
+  ],
+  "ctx_id": 2884
+ },
+ {
+  "id": "uit_020078",
+  "title": "Đảo Ireland",
+  "question": "Câu lạc bộ bóng đá lâu năm nhất tại Ireland là đội bóng nào?",
+  "answers": [
+   "Cliftonville F.C"
+  ],
+  "ctx_id": 1289
+ },
+ {
+  "id": "uit_027502",
+  "title": "Chiến tranh Đông Dương",
+  "question": "Vì sao Ủy ban Hành chính Lâm thời Nam Bộ tổ chức một cuộc biểu tình vào ngày 17/9/1945?",
+  "answers": [
+   "Anh không chịu công nhận Ủy ban Hành chính Lâm thời Nam Bộ là chính phủ hợp pháp duy nhất ở Nam Kỳ và gạt bỏ đề nghị hợp tác của Ủy ban"
+  ],
+  "ctx_id": 1179
+ },
+ {
+  "id": "uit_022378",
+  "title": "Kinh tế Hoa Kỳ",
+  "question": "Bang nào đóng góp nhiều hoạt động nghiên cứu nhất?",
+  "answers": [
+   "bang California"
+  ],
+  "ctx_id": 1567
+ },
+ {
+  "id": "uit_010063",
+  "title": "Ukraina",
+  "question": "Lượng mưa cao nhất ở Ukraina tập trung ở đâu?",
+  "answers": [
+   "phía tây và phía bắc"
+  ],
+  "ctx_id": 1097
+ },
+ {
+  "id": "uit_010016",
+  "title": "Ukraina",
+  "question": "Luật, đạo luật của nghị viện và nội các, nghị định tổng thống, và đạo luật của nghị viện Crimea có thể bị gì?",
+  "answers": [
+   "bị Toà án Hiến pháp huỷ bỏ"
+  ],
+  "ctx_id": 2578
+ },
+ {
+  "id": "uit_016425",
+  "title": "Chiến tranh Triều Tiên",
+  "question": "Từ sự kiện nào mà người ta biết rằng càng nhường nhịn thì các nước hiếu chiến càng lấn tới?",
+  "answers": [
+   "Hiệp ước Munich năm 1938"
+  ],
+  "ctx_id": 916
+ },
+ {
+  "id": "uit_020654",
+  "title": "Việt Nam",
+  "question": "Vua Gia Long được phong làm gì theo lệnh của vua Gia Khánh nhà Thanh?",
+  "answers": [
+   "Việt Nam quốc vương"
+  ],
+  "ctx_id": 1176
+ },
+ {
+  "id": "uit_021759",
+  "title": "Bức tường Berlin",
+  "question": "Đại diện ở đâu không có quyền bỏ phiếu ?",
+  "answers": [
+   "Tây Berlin"
+  ],
+  "ctx_id": 649
+ },
+ {
+  "id": "uit_013540",
+  "title": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
+  "question": "Để công khai chống đối và ngăn cản sự đàn áp của chính quyền, những người Cộng sản miền Nam đã thành lập tổ chứ gì?",
+  "answers": [
+   "Đảng Nhân dân cách mạng Việt Nam"
+  ],
+  "ctx_id": 1688
+ },
+ {
+  "id": "uit_005111",
+  "title": "Hà Nam (Trung Quốc)",
+  "question": "Trên địa bàn tỉnh Hà Nam thì lưu vực của Hoài Hà chiếm diện tích bao nhiêu?",
+  "answers": [
+   "88.300 km²"
+  ],
+  "ctx_id": 2434
+ },
+ {
+  "id": "uit_003811",
+  "title": "Roma",
+  "question": "Thành phố Roma có những tháp tưởng niệm nào?",
+  "answers": [
+   "có 8 tháp tưởng niệm cổ Ai Cập và 5 tháp tưởng niệm La Mã cổ đại cùng một số khác hiện đại hơn, như tháp tưởng niệm Ethiopia ở Roma được xây dựng gần đây (từ 2005)"
+  ],
+  "ctx_id": 1196
+ },
+ {
+  "id": "uit_025980",
+  "title": "Johannes Kepler",
+  "question": "Với sức mạnh trí tuệ của bản thân, Kepler đã vận dụng những yếu tố nào để có tạo ra sự thành công trong công trình nghiên cứu của mình?",
+  "answers": [
+   "đức tin và lý trí"
+  ],
+  "ctx_id": 1729
+ },
+ {
+  "id": "uit_002395",
+  "title": "Thư viện Quốc gia Pháp",
+  "question": "Các căn phòng dọc khu vườn được dùng để lưu trữ các dạng tài liệu thuộc lĩnh vực nào?",
+  "answers": [
+   "kiến thức chung"
+  ],
+  "ctx_id": 1561
+ },
+ {
+  "id": "uit_024038",
+  "title": "Hà Nội",
+  "question": "Vì lí do nào mà Hà Nội lại mang phong cách của nền văn hóa Trung Hoa?",
+  "answers": [
+   "Hơn một nghìn năm Bắc thuộc"
+  ],
+  "ctx_id": 1870
+ },
+ {
+  "id": "uit_009682",
+  "title": "Louis XV của Pháp",
+  "question": "Quyết định cách chức Choiseul được nhà vua giải thích như thế nào?",
+  "answers": [
+   "Chính sách của Choiseuls quá trái với tôn giáo, và do đó trái với quyền lực hoàng gia"
+  ],
+  "ctx_id": 522
+ },
+ {
+  "id": "uit_001513",
+  "title": "Cộng hòa Dân chủ Đức",
+  "question": "Ngoại trừ thủ đô thì các bang nào thuộc Cộng hòa Dân chủ Đức đến năm 1952?",
+  "answers": [
+   "các bang Mecklenburg-Vorpommern, Brandenburg, Saxony-Anhalt, Thuringia, Saxony"
+  ],
+  "ctx_id": 1770
+ },
+ {
+  "id": "uit_026846",
+  "title": "Vladimir Vladimirovich Putin",
+  "question": "Putin đã công tác tại FSB trong khoảng thời gian nào?",
+  "answers": [
+   "từ tháng 7 năm 1998 đến tháng 8 năm 1999"
+  ],
+  "ctx_id": 2497
+ },
+ {
+  "id": "uit_018463",
+  "title": "Nhà Minh",
+  "question": "Vào năm 1449, quân đội của Minh Anh Tông đi đến Đại Đồng vào khoảng thời gian nào?",
+  "answers": [
+   "Đầu tháng tám"
+  ],
+  "ctx_id": 1150
+ },
+ {
+  "id": "uit_008358",
+  "title": "Malaysia",
+  "question": "Chỉ số hưu trí của Malaysia so với thế giới được đánh giá như thế nào?",
+  "answers": [
+   "Malaysia được xếp là một trong những nơi tốt nhất để nghỉ hưu trên thế giới, đứng vị trí thứ 3 theo Chỉ số hưu trí toàn cầu"
+  ],
+  "ctx_id": 998
+ },
+ {
+  "id": "uit_011371",
+  "title": "Châu Nam Cực",
+  "question": "Diện tích của thềm băng Wilkins sau tháng 3 năm 2008 là bao nhiêu?",
+  "answers": [
+   "15.000 km2 (5.800 sq mi)"
+  ],
+  "ctx_id": 199
+ },
+ {
+  "id": "uit_022524",
+  "title": "Iran",
+  "question": "Những tăng lữ phạm tội sẽ do tòa án nào xử lí?",
+  "answers": [
+   "Tòa án Tăng lữ Đặc biệt"
+  ],
+  "ctx_id": 2856
+ },
+ {
+  "id": "uit_005710",
+  "title": "Alexandros Đại đế",
+  "question": "Thiệt hại về người của Ba Tư là bao nhiêu?",
+  "answers": [
+   "11 vạn người"
+  ],
+  "ctx_id": 2039
+ },
+ {
+  "id": "uit_020849",
+  "title": "Việt Nam",
+  "question": "Những tỉnh thành nào có GDP bình quân đầu người đạt trên 2450 USD xếp theo thứ tự từ cao xuống thấp?",
+  "answers": [
+   "Thành phố Hồ Chí Minh, Bà Rịa – Vũng Tàu, Bắc Ninh, Quảng Ninh, Cần Thơ, Hà Nội, Bình Dương, Đồng Nai, Vĩnh Phúc, Đà Nẵng, Hải Phòng, Tây Ninh, Kiên Giang, Quảng Ngãi, Lâm Đồng"
+  ],
+  "ctx_id": 1485
+ },
+ {
+  "id": "uit_018869",
+  "title": "Sao Hải Vương",
+  "question": "Vì sao đám mây trên cao của Sao Hải Vương có nhiệt độ là -218 độ C?",
+  "answers": [
+   "cách rất xa Mặt Trời"
+  ],
+  "ctx_id": 1670
+ },
+ {
+  "id": "uit_002124",
+  "title": "Đế quốc Ottoman",
+  "question": "Ottoman có dân số bao nhiêu trong thế kỷ XVII?",
+  "answers": [
+   "khoảng 25 triệu dân"
+  ],
+  "ctx_id": 1284
+ },
+ {
+  "id": "uit_017158",
+  "title": "Trung Quốc Quốc dân Đảng",
+  "question": "Viên Thế Khải xưng danh hoàng đế vào khi nào?",
+  "answers": [
+   "tháng 12 năm 1915"
+  ],
+  "ctx_id": 657
+ },
+ {
+  "id": "uit_020606",
+  "title": "Thế vận hội Mùa hè 2012",
+  "question": "Bài hát mà ca sĩ Emily Sande đã trình diễn trong lễ bế mạc Olympic 2012 tên là gì?",
+  "answers": [
+   "Read all about it"
+  ],
+  "ctx_id": 511
+ },
+ {
+  "id": "uit_003392",
+  "title": "Lịch sử thế giới",
+  "question": "Thiên nhiên đã chịu tổn hại kể từ khi nào?",
+  "answers": [
+   "khám phá ra lửa và sự bắt đầu của nền văn minh"
+  ],
+  "ctx_id": 459
+ },
+ {
+  "id": "uit_009118",
+  "title": "Người Do Thái",
+  "question": "Trong cuộc Thập Tự chinh, người Do Thái ở đâu bị sát hại?",
+  "answers": [
+   "nước Đức"
+  ],
+  "ctx_id": 1155
+ },
+ {
+  "id": "uit_015296",
+  "title": "Luxembourg",
+  "question": "Hiệp ước chính trị nào đã xác lập sự độc lập của Luxembourg lần thứ hai?",
+  "answers": [
+   "Hiệp ước London thứ nhất"
+  ],
+  "ctx_id": 1189
+ },
+ {
+  "id": "uit_027510",
+  "title": "Chiến tranh Đông Dương",
+  "question": "Khi các đoàn quân giải giáp Nhật của đồng minh tiến vào Việt Nam thì đã lấy đi thứ gì của Việt Nam?",
+  "answers": [
+   "độc lập"
+  ],
+  "ctx_id": 679
+ },
+ {
+  "id": "uit_023996",
+  "title": "Hà Nội",
+  "question": "Tại làng Triều Khúc vào khoảng thời gian 4 ngày kể từ ngày 9 tháng 1 âm lịch là lúc diễn ra lễ hội nào?",
+  "answers": [
+   "lễ hội Triều Khúc"
+  ],
+  "ctx_id": 2063
+ },
+ {
+  "id": "uit_022533",
+  "title": "Iran",
+  "question": "Một phần của Điều 7 trong Hiến pháp Iran không có hiệu lực cho tới năm?",
+  "answers": [
+   "năm 1999"
+  ],
+  "ctx_id": 755
+ },
+ {
+  "id": "uit_011114",
+  "title": "Cách mạng Tháng Mười",
+  "question": "Đại hội đã quyết định sẽ tạm gạt bỏ khẩu hiệu nào?",
+  "answers": [
+   "Tất cả chính quyền về tay xô viết"
+  ],
+  "ctx_id": 2332
+ },
+ {
+  "id": "uit_022167",
+  "title": "Kinh tế Hoa Kỳ",
+  "question": "Tại Mỹ, những người bị bênh tim có quyền lợi gì?",
+  "answers": [
+   "được thực hiện phẫu thuật tim sau khi bị đau tim"
+  ],
+  "ctx_id": 736
+ },
+ {
+  "id": "uit_001293",
+  "title": "Albert Einstein",
+  "question": "Bằng thí nghiệm với đĩa quay, Einstein đã tưởng tượng ra điều gì?",
+  "answers": [
+   "một quan sát viên thực hiện các thí nghiệm trên một cái bàn quay"
+  ],
+  "ctx_id": 681
+ },
+ {
+  "id": "uit_014731",
+  "title": "Cộng hòa Síp",
+  "question": "Vào năm 1996 tỉ lệ đường trải nhựa và không trải nhựa ở Síp Thổ Nhĩ Kỳ như thế nào?",
+  "answers": [
+   "tương tự"
+  ],
+  "ctx_id": 1657
+ },
+ {
+  "id": "uit_012678",
+  "title": "Nam Bộ (Việt Nam)",
+  "question": "Văn hóa Nam Bộ có giá trị gì đối với dân tộc ta?",
+  "answers": [
+   "là truyền thống văn hóa dân tộc và những giá trị cốt lõi hình thành phong cách văn hóa riêng vùng"
+  ],
+  "ctx_id": 927
+ },
+ {
+  "id": "uit_018804",
+  "title": "Nhà Minh",
+  "question": "Những khu vực nào đã được khai phá vào những năm Hồng Vũ?",
+  "answers": [
+   "phía bắc Hoài Hà và Tứ Xuyên"
+  ],
+  "ctx_id": 2674
+ },
+ {
+  "id": "uit_023845",
+  "title": "Hà Nội",
+  "question": "Trong thời gian gần đây thì Hà Nội trung bình mỗi năm tăng thêm được bao nhiêu km đường?",
+  "answers": [
+   "5 tới 10 km"
+  ],
+  "ctx_id": 1217
+ },
+ {
+  "id": "uit_002488",
+  "title": "Dương cầm",
+  "question": "Đàn Clavichord hoạt động như thế nào?",
+  "answers": [
+   "Khi người chơi bấm vào phím, một mảnh kim loại bật lên và đập vào dây đàn. Mảnh kim loại còn có tác dụng như một thanh chặn dây, và nốt nhạc được ngân lên cho đến khi phím đàn được thả ra"
+  ],
+  "ctx_id": 2182
+ },
+ {
+  "id": "uit_011041",
+  "title": "Ẩm thực Việt Nam",
+  "question": "Món thức uống phổ biến của đa số các nước Châu Á là?",
+  "answers": [
+   "Trà"
+  ],
+  "ctx_id": 953
+ },
+ {
+  "id": "uit_003862",
+  "title": "Roma",
+  "question": "Những cơ quan, công ti nổi tiếng có trụ sở tại Roma là những cơ quan nào?",
+  "answers": [
+   "khu kinh tế Esposizione Universale Roma (EUR); Torrino (phía nam EUR); Magliana; Parco de' Medici-Laurentina và Tiburtina-valley nằm dọc theo con đường cổ Via Tiburtina"
+  ],
+  "ctx_id": 378
+ },
+ {
+  "id": "uit_020017",
+  "title": "Đảo Ireland",
+  "question": "Enya, The Saw Doctors, The Corrs, Sinéad O'Connor, Clannad, The Cranberries và The Pogues là ai?",
+  "answers": [
+   "các nghệ sĩ"
+  ],
+  "ctx_id": 319
+ },
+ {
+  "id": "uit_002551",
+  "title": "Người Ê Đê",
+  "question": "Dân số người Ê Đê vào năm 2009 là bao nhiêu?",
+  "answers": [
+   "331.194 người"
+  ],
+  "ctx_id": 1285
+ },
+ {
+  "id": "uit_026774",
+  "title": "Người",
+  "question": "So với những công cụ của các loài khác sử dụng thì công cụ của loài người trong xã hội cổ như thế nào?",
+  "answers": [
+   "vô cùng hiện đại hơn"
+  ],
+  "ctx_id": 1868
+ },
+ {
+  "id": "uit_020668",
+  "title": "Việt Nam",
+  "question": "Săn thú và hái lượm là cách mà con người sinh sống tại các khu vực nào?",
+  "answers": [
+   "các vùng phía Bắc"
+  ],
+  "ctx_id": 982
+ },
+ {
+  "id": "uit_022626",
+  "title": "Cuba",
+  "question": "Một phần lý do nào khiến Cuba tiếp tục trung thành dù đã có một số khích động độc lập?",
+  "answers": [
+   "một phần bởi sự thịnh vượng của những người định cư Cuba phụ thuộc vào thương mại xuất khẩu tới châu Âu, một phần bởi lo ngại về một cuộc nổi loạn nô lệ"
+  ],
+  "ctx_id": 236
+ },
+ {
+  "id": "uit_004730",
+  "title": "Thực vật",
+  "question": "Nơi nào xuất hiện đá phiến silic Rhynie?",
+  "answers": [
+   "Aberdeenshire, Scotland"
+  ],
+  "ctx_id": 1419
+ },
+ {
+  "id": "uit_017902",
+  "title": "Lịch sử Hoa Kỳ",
+  "question": "Có sự phát triển mạnh mẽ về các điều gì ở các thuộc địa của Mỹ và các quốc gia mới?",
+  "answers": [
+   "dân số và diện tích"
+  ],
+  "ctx_id": 932
+ },
+ {
+  "id": "uit_024808",
+  "title": "Pháp",
+  "question": "Số lượng người đến nhà thờ định kỳ chiếm bao nhiêu % dân số theo một khả sát năm 2007?",
+  "answers": [
+   "5% dân số Pháp"
+  ],
+  "ctx_id": 1641
+ },
+ {
+  "id": "uit_009380",
+  "title": "Louis XV của Pháp",
+  "question": "Thành viên của nhóm các nước đối đầu với Pháp được thành lập đầu tháng 8 năm 1726 là các nước nào?",
+  "answers": [
+   "Phổ, Nga và Áo"
+  ],
+  "ctx_id": 2798
+ },
+ {
+  "id": "uit_003272",
+  "title": "Lịch sử thế giới",
+  "question": "Tại Trung Quốc có các trường phái nào?",
+  "answers": [
+   "Đạo giáo, Pháp gia, và Khổng giáo"
+  ],
+  "ctx_id": 1330
+ },
+ {
+  "id": "uit_021471",
+  "title": "Richard I của Anh",
+  "question": "Henry II mất tại nơi nào?",
+  "answers": [
+   "Chinon"
+  ],
+  "ctx_id": 584
+ },
+ {
+  "id": "uit_016631",
+  "title": "Chiến tranh Triều Tiên",
+  "question": "Các cuộc tập thử đánh bom giả sử dụng chiến cơ B-29 đã được thực hiện tại những nơi nào?",
+  "answers": [
+   "từ Okinawa đến Bắc Triều"
+  ],
+  "ctx_id": 1527
+ },
+ {
+  "id": "uit_013037",
+  "title": "Sao Kim",
+  "question": "Khi nào nội nhiệt của sao Kim bị mất?",
+  "answers": [
+   "trong quá trình tái tạo bề mặt tuần hoàn theo chu kỳ hàng trăm triệu năm"
+  ],
+  "ctx_id": 2302
+ },
+ {
+  "id": "uit_013633",
+  "title": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
+  "question": "Giới lãnh đạo miền Bắc hỗ trợ những gì cho lãnh đạo miền Nam?",
+  "answers": [
+   "đề ra chiến lược quân sự lẫn chính trị"
+  ],
+  "ctx_id": 1264
+ },
+ {
+  "id": "uit_018375",
+  "title": "Nhà Minh",
+  "question": "Hoàng đế đầu tiên của Nhà Minh là ai? ",
+  "answers": [
+   "Chu Nguyên Chương"
+  ],
+  "ctx_id": 1392
+ },
+ {
+  "id": "uit_001224",
+  "title": "Albert Einstein",
+  "question": "Ví dụ nào thể hiện các nhà vật lý chấp nhận rộng rãi của nguyên lý tiên nghiệm?",
+  "answers": [
+   "tính bất biến quay"
+  ],
+  "ctx_id": 2457
+ },
+ {
+  "id": "uit_004435",
+  "title": "Thành phố Hồ Chí Minh",
+  "question": "Dân số thành phố Hồ Chí Minh diễn biến như thế nào?",
+  "answers": [
+   "toàn thành phố Hồ Chí Minh có 7,95 triệu dân (trong đó khoảng 6,7 triệu dân sống ở khu đô thị)"
+  ],
+  "ctx_id": 2145
+ },
+ {
+  "id": "uit_000098",
+  "title": "Thực vật có hoa",
+  "question": "Tầng phát sinh gỗ là gì?",
+  "answers": [
+   "Trong mỗi bó, chia tách bởi phần chất gỗ và phần li be, là một lớp mô phân sinh hay mô hình thành đang hoạt động"
+  ],
+  "ctx_id": 1315
+ },
+ {
+  "id": "uit_003146",
+  "title": "Lịch sử thế giới",
+  "question": "Thời điểm đỉnh cao thì Ai Cập có lãnh thổ lớn như thế nào?",
+  "answers": [
+   "trải dài từ đồng bằng sông Nin đến núi Gebel Barkal, Sudan"
+  ],
+  "ctx_id": 2108
+ },
+ {
+  "id": "uit_027662",
+  "title": "Chiến tranh Đông Dương",
+  "question": "Để chống lại chiến thuật chia rẽ của Pháp, Việt Nam cần phải làm gì?",
+  "answers": [
+   "Thống nhất quốc gia. Đoàn kết dân tộc"
+  ],
+  "ctx_id": 67
+ },
+ {
+  "id": "uit_024336",
+  "title": "Pháp",
+  "question": "Thủ đô của nước Pháp là thành phố nào?",
+  "answers": [
+   "thủ đô Paris"
+  ],
+  "ctx_id": 1756
+ },
+ {
+  "id": "uit_025421",
+  "title": "Trung Quốc",
+  "question": "Tầng lớp nào ở Trung Quốc đạt 300 triệu vào năm 2012?",
+  "answers": [
+   "tầng lớp trung lưu"
+  ],
+  "ctx_id": 2628
+ },
+ {
+  "id": "uit_003768",
+  "title": "Roma",
+  "question": "Chủ nhân của kiệt tác Quảng trường Piazza del Campidoglio là ai?",
+  "answers": [
+   "Michelangelo"
+  ],
+  "ctx_id": 98
+ },
+ {
+  "id": "uit_003805",
+  "title": "Roma",
+  "question": "Những bức tượng nổi tiếng của Roma là những bức tượng nào?",
+  "answers": [
+   "Có hai bức tượng nổi tiếng là: Pasquino và Marforio, ngoài ra vẫn có 4 bức tượng khác đáng chú ý là il Babuino, Madama Lucrezia, il Facchino và Abbot Luigi"
+  ],
+  "ctx_id": 2730
+ },
+ {
+  "id": "uit_022730",
+  "title": "Cuba",
+  "question": "Giữa tháng 3 năm 1958, Mỹ đã có hành động gì trước yêu cầu mua vũ khí của Cuba?",
+  "answers": [
+   "áp đặt một lệnh cấm vận vũ khí với chính phủ Cuba"
+  ],
+  "ctx_id": 1987
+ },
+ {
+  "id": "uit_000546",
+  "title": "Edward I của Anh",
+  "question": "Để thiết lập và tái lập vương quyền, Edward đã làm những gì?",
+  "answers": [
+   "ông ngay lập tức thực hiện những thay đổi sâu rộng về nhân sự trong chánh quyền"
+  ],
+  "ctx_id": 1215
+ },
+ {
+  "id": "uit_023827",
+  "title": "Hà Nội",
+  "question": "Khách sạn Hilton Hanoi Opera tại Hà Nội là khách đạt tiêu chuẩn mấy sao?",
+  "answers": [
+   "5 sao"
+  ],
+  "ctx_id": 2644
+ },
+ {
+  "id": "uit_027689",
+  "title": "Chiến tranh Đông Dương",
+  "question": "Ngày 6 tháng 3 năm 1946 đã diễn ra sự kiện gì?",
+  "answers": [
+   "Hiệp định sơ bộ Pháp-Việt được ký kết giữa"
+  ],
+  "ctx_id": 767
+ },
+ {
+  "id": "uit_025220",
+  "title": "Trung Quốc",
+  "question": "Nhà lãnh đạo Trung Hoa đã làm gì để biến dân số từ 550 triệu lên hơn 900 triệu?",
+  "answers": [
+   "khuyến khích tăng trưởng dân số, cùng với các tiến bộ về y tế, nông nghiệp"
+  ],
+  "ctx_id": 1667
+ },
+ {
+  "id": "uit_027071",
+  "title": "Chiến tranh Đông Dương",
+  "question": "Chính sách cai trị nào của người Pháp đã làm cho việc xây dựng bộ máy nhà nước sau khi độc lập của các nước An Nam trở nên khó khăn hơn?",
+  "answers": [
+   "họ không đào tạo một tầng lớp tinh hoa đủ sức lãnh đạo quốc gia mà chỉ đào tạo ra những nhân viên thừa hành cấp thấp"
+  ],
+  "ctx_id": 872
+ },
+ {
+  "id": "uit_024030",
+  "title": "Hà Nội",
+  "question": "Cá phụ gia nào được sử dụng để ướp chung với cá để tạo ra chả cá Lã Vọng?",
+  "answers": [
+   "nước riềng, nghệ, mẻ, hạt tiêu, nước mắm"
+  ],
+  "ctx_id": 1477
+ },
+ {
+  "id": "uit_010250",
+  "title": "Bồ Đào Nha",
+  "question": "Lãnh thổ Bồ Đào Nha thành tỉnh Lusitania khi sáp nhập vào đâu?",
+  "answers": [
+   "Đế quốc La Mã"
+  ],
+  "ctx_id": 940
+ }
+]

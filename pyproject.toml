@@ -1,0 +1,19 @@
+[project]
+name = "rag-chatbot"
+version = "0.3.0"
+description = "RAG chatbot for Vietnamese Wikipedia QA: LangChain + FAISS + Ollama, evaluated on UIT-ViQuAD 2.0"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+ignore = ["B905"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/build_notebook.py" = ["E501"]  # notebook cell templates
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

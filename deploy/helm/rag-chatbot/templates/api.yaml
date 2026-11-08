@@ -1,0 +1,103 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ include "rag.fullname" . }}-models
+  labels: {{- include "rag.labels" . | nindent 4 }}
+spec:
+  accessModes: [ReadWriteOnce]
+  {{- with .Values.modelCache.storageClass }}
+  storageClassName: {{ . }}
+  {{- end }}
+  resources: {requests: {storage: {{ .Values.modelCache.size }}}}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "rag.fullname" . }}
+  labels: {{- include "rag.labels" . | nindent 4 }}
+    app.kubernetes.io/component: api
+spec:
+  {{- if not .Values.autoscaling.enabled }}
+  replicas: {{ .Values.replicaCount }}
+  {{- end }}
+  selector:
+    matchLabels: {{- include "rag.selector" . | nindent 6 }}
+      app.kubernetes.io/component: api
+  template:
+    metadata:
+      labels: {{- include "rag.selector" . | nindent 8 }}
+        app.kubernetes.io/component: api
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "8000"
+        prometheus.io/path: /metrics
+    spec:
+      securityContext: {runAsNonRoot: true, runAsUser: 10001, fsGroup: 10001}
+      initContainers:
+        - name: fetch-index   # pulls the versioned FAISS index (the "model artifact")
+          image: curlimages/curl:8.10.1
+          command: ["/bin/sh", "-c"]
+          args:
+            - curl -fsSL "{{ .Values.index.url }}" | tar -xz -C /index --strip-components=1
+              && ls -la /index
+          volumeMounts: [{name: index, mountPath: /index}]
+      containers:
+        - name: api
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            - {name: OLLAMA_URL, value: "http://{{ include "rag.fullname" . }}-ollama:11434"}
+            - {name: LLM_MODEL, value: {{ .Values.ollama.model | quote }}}
+            - {name: EMBED_MODEL, value: {{ .Values.rag.embedModel | quote }}}
+            - {name: RETRIEVER, value: {{ .Values.rag.retriever | quote }}}
+            - {name: RERANKER, value: {{ .Values.rag.reranker | quote }}}
+            - {name: TOP_K, value: {{ .Values.rag.topK | quote }}}
+            - {name: DEVICE, value: {{ .Values.rag.device | quote }}}
+            - {name: INDEX_DIR, value: /app/artifacts/index}
+            - {name: APP_VERSION, value: {{ .Values.image.tag | default .Chart.AppVersion | quote }}}
+          ports: [{name: http, containerPort: 8000}]
+          startupProbe:   # first start downloads bge-m3 (~2.2 GB)
+            httpGet: {path: /readyz, port: http}
+            periodSeconds: 10
+            failureThreshold: 90
+          readinessProbe:
+            httpGet: {path: /readyz, port: http}
+            periodSeconds: 10
+          livenessProbe:
+            httpGet: {path: /healthz, port: http}
+            periodSeconds: 20
+          resources: {{- toYaml .Values.resources | nindent 12 }}
+          volumeMounts:
+            - {name: index, mountPath: /app/artifacts/index, readOnly: true}
+            - {name: models, mountPath: /models}
+      volumes:
+        - {name: index, emptyDir: {}}
+        - name: models
+          persistentVolumeClaim: {claimName: {{ include "rag.fullname" . }}-models}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "rag.fullname" . }}
+  labels: {{- include "rag.labels" . | nindent 4 }}
+spec:
+  selector: {{- include "rag.selector" . | nindent 4 }}
+    app.kubernetes.io/component: api
+  ports: [{name: http, port: 8000, targetPort: http}]
+{{- if .Values.autoscaling.enabled }}
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: {{ include "rag.fullname" . }}
+  labels: {{- include "rag.labels" . | nindent 4 }}
+spec:
+  scaleTargetRef: {apiVersion: apps/v1, kind: Deployment, name: {{ include "rag.fullname" . }}}
+  minReplicas: {{ .Values.autoscaling.minReplicas }}
+  maxReplicas: {{ .Values.autoscaling.maxReplicas }}
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target: {type: Utilization, averageUtilization: {{ .Values.autoscaling.targetCPUUtilizationPercentage }}}
+{{- end }}

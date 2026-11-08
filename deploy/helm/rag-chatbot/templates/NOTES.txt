@@ -1,0 +1,9 @@
+RAG chatbot {{ .Values.image.tag | default .Chart.AppVersion }} deployed.
+
+First start pulls {{ .Values.ollama.model }} (~4.7 GB) and bge-m3 (~2.2 GB); watch with:
+  kubectl -n {{ .Release.Namespace }} get pods -w
+
+Test from your machine:
+  kubectl -n {{ .Release.Namespace }} port-forward svc/{{ include "rag.fullname" . }} 8000:8000
+  curl -s localhost:8000/ask -H 'content-type: application/json' -d '{"question":"Thủ đô của Nhật Bản là gì?"}'
+  open http://localhost:8000/docs

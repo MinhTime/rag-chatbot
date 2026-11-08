@@ -1,0 +1,67 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ include "rag.fullname" . }}-ollama
+  labels: {{- include "rag.labels" . | nindent 4 }}
+spec:
+  accessModes: [ReadWriteOnce]
+  {{- with .Values.ollama.storageClass }}
+  storageClassName: {{ . }}
+  {{- end }}
+  resources: {requests: {storage: {{ .Values.ollama.storage }}}}
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "rag.fullname" . }}-ollama
+  labels: {{- include "rag.labels" . | nindent 4 }}
+    app.kubernetes.io/component: llm
+spec:
+  replicas: 1
+  strategy: {type: Recreate}   # one GPU, RWO volume
+  selector:
+    matchLabels: {{- include "rag.selector" . | nindent 6 }}
+      app.kubernetes.io/component: llm
+  template:
+    metadata:
+      labels: {{- include "rag.selector" . | nindent 8 }}
+        app.kubernetes.io/component: llm
+    spec:
+      containers:
+        - name: ollama
+          image: {{ .Values.ollama.image }}
+          # start the server, pull the model once (cached on the PVC), keep serving
+          command: ["/bin/sh", "-c"]
+          args:
+            - ollama serve & until ollama list >/dev/null 2>&1; do sleep 1; done;
+              ollama pull {{ .Values.ollama.model }} && wait
+          env:
+            - {name: OLLAMA_KEEP_ALIVE, value: "24h"}
+          ports: [{name: http, containerPort: 11434}]
+          readinessProbe:
+            exec: {command: ["/bin/sh", "-c", "ollama list | grep -q '{{ .Values.ollama.model }}'"]}
+            periodSeconds: 10
+            failureThreshold: 90
+          livenessProbe:
+            httpGet: {path: /api/tags, port: http}
+            initialDelaySeconds: 30
+            periodSeconds: 20
+          resources:
+            requests: {{- toYaml .Values.ollama.resources.requests | nindent 14 }}
+            limits:
+              {{- toYaml .Values.ollama.resources.limits | nindent 14 }}
+              nvidia.com/gpu: {{ .Values.ollama.gpu }}
+          volumeMounts: [{name: data, mountPath: /root/.ollama}]
+      volumes:
+        - name: data
+          persistentVolumeClaim: {claimName: {{ include "rag.fullname" . }}-ollama}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "rag.fullname" . }}-ollama
+  labels: {{- include "rag.labels" . | nindent 4 }}
+spec:
+  selector: {{- include "rag.selector" . | nindent 4 }}
+    app.kubernetes.io/component: llm
+  ports: [{name: http, port: 11434, targetPort: http}]

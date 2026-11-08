@@ -1,0 +1,55 @@
+# --- API (FastAPI, CPU) -------------------------------------------------------
+image:
+  repository: ghcr.io/minhtime/rag-chatbot
+  tag: ""               # defaults to .Chart.AppVersion
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
+rag:
+  retriever: hybrid     # best version that passed the eval gate (v2_rerank)
+  reranker: BAAI/bge-reranker-v2-m3  # v2; "" = v1 (faster on CPU)
+  topK: 4
+  embedModel: BAAI/bge-m3
+  device: cpu
+# FAISS index tarball built by the Kaggle notebook / `make index`, attached to a GitHub Release
+index:
+  url: https://github.com/MinhTime/rag-chatbot/releases/download/v0.3.0/index.tar.gz
+resources:
+  requests: {cpu: "1", memory: 4Gi}
+  limits: {memory: 6Gi}
+modelCache:             # HuggingFace cache (bge-m3 ~2.2 GB) so restarts do not re-download
+  size: 10Gi
+  storageClass: ""
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 3
+  targetCPUUtilizationPercentage: 70
+
+# --- LLM server (Ollama, GPU) -------------------------------------------------
+ollama:
+  image: ollama/ollama:0.40.15
+  model: qwen3:8b        # v3_qwen3 (best version that passed the eval gate)
+  gpu: 1                # needs the NVIDIA device plugin on the node
+  storage: 20Gi
+  storageClass: ""
+  resources:
+    requests: {cpu: "1", memory: 8Gi}
+    limits: {memory: 16Gi}
+
+# --- Exposure -----------------------------------------------------------------
+ingress:
+  enabled: false
+  className: nginx
+  host: rag.example.com
+  tls: false            # true + cert-manager annotation for HTTPS
+  annotations: {}
+
+# Public HTTPS without opening ports on a home network: Cloudflare Tunnel.
+# Create a tunnel in the Cloudflare dashboard, route your hostname to
+# http://<release>-rag-chatbot:8000, then:
+#   kubectl -n rag create secret generic cloudflared --from-literal=token=<TUNNEL_TOKEN>
+cloudflared:
+  enabled: false
+  image: cloudflare/cloudflared:2026.10.7
+  secretName: cloudflared
