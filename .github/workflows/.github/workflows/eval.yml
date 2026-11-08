@@ -1,0 +1,29 @@
+# Offline evaluation on Kaggle GPU + quality gate.
+# Needs repo secrets KAGGLE_USERNAME and KAGGLE_KEY.
+name: eval
+on:
+  workflow_dispatch:
+    inputs:
+      version: {description: "experiment version (scripts/build_notebook.py VERSIONS)", required: true}
+      baseline: {description: "version to compare against", required: true, default: v0_dense}
+
+jobs:
+  kaggle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: pip install kaggle
+      - run: python scripts/kaggle_eval.py run ${{ inputs.version }} --baseline ${{ inputs.baseline }}
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eval-${{ inputs.version }}
+          path: |
+            results/${{ inputs.version }}/
+            artifacts/index-${{ inputs.version }}.tar.gz
