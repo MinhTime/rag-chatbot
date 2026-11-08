@@ -12,9 +12,9 @@ An end-to-end Retrieval-Augmented Generation (RAG) system for Vietnamese questio
 |---|---|---:|---:|---:|---:|---:|---:|:---:|
 | no RAG | Qwen2.5 7B alone | - | - | - | 3.0% | 12.6% | 17.0% | - |
 | v0_dense | bge-m3 + FAISS, top-4 | 75.9% | 90.4% | 0.828 | **39.0%** | **65.7%** | **75.5%** | baseline |
-| v1_hybrid | + BM25, RRF fusion | 79.9% | 93.1% | 0.862 | 38.0% | 63.6% | 74.0% | ✅ PASS |
-| v2_rerank | + bge-reranker-v2-m3 (top-20 → 4) | 90.2% | 97.1% | 0.934 | 39.0% | 64.7% | 76.5% | ✅ PASS |
-| **v3_qwen3** | answer LLM → Qwen3 8B | **90.2%** | **97.1%** | **0.934** | **39.5%** | **68.5%** | **82.5%** | ✅ PASS |
+| v1_hybrid | + BM25, RRF fusion | 79.9% | 93.1% | 0.862 | 38.0% | 63.6% | 74.0% | PASS |
+| v2_rerank | + bge-reranker-v2-m3 (top-20 → 4) | 90.2% | 97.1% | 0.934 | 39.0% | 64.7% | 76.5% | PASS |
+| **v3_qwen3** | answer LLM → Qwen3 8B | **90.2%** | **97.1%** | **0.934** | **39.5%** | **68.5%** | **82.5%** | PASS |
 
 Hit@k and MRR: all 3,852 answerable dev questions. EM, F1 and Judge ≥ 4: 200 test questions (Evaluation v2), judged by **Gemma 2 9B**, a different model family from the Qwen answer model. The second judge (Qwen2.5 7B) agrees with it on 91-93% of answers (**Cohen's kappa 0.82-0.85**, "almost perfect" agreement), so the judge scores are reliable (v2: kappa 0.84). Why each version was tried, and what happened, is written in [CHANGELOG.md](CHANGELOG.md).
 
