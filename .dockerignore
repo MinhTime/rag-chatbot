@@ -1,0 +1,9 @@
+.git
+.github
+notebooks
+results
+tests
+data/*.json
+**/__pycache__
+deploy
+artifacts
